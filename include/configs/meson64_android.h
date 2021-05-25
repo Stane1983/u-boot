@@ -329,7 +329,7 @@
 	ANDROIDBOOT_FASTBOOTD_CMD                                     \
 	ANDROIDBOOT_RECOVERY_CMD                                      \
 	ANDROIDBOOT_GET_CURRENT_SLOT_CMD                              \
-	"mmcdev=2\0"                                                  \
+	"mmcdev=" CONFIG_SYS_MMC_ENV_DEV "\0"                         \
 	"logopart=1\0"                                                \
 	"force_avb=0\0"                                               \
 	"gpio_recovery=88\0"                                          \
